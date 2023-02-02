@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("netflix.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.404);
+  margin: auto auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+h1 span {
+  color: red;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: fit-content;
+  text-align: left;
+  margin: auto auto;
+  padding: 20px 40px;
+}
+
+.my-input input {
+  margin-bottom: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 5px;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+  width: 95%;
+}
+
+form div > select {
+  margin-bottom: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 0px;
+  width: 95%;
+}
+form div > label {
+  margin-bottom: 10px;
+}
+
+form div > button {
+  padding: 5px 30px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  color: rgb(30, 0, 255);
+  background-color: rgb(226, 220, 43);
+}
+
+h5 {
+  margin: 10px 0 0 0;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.send {
+  width: 100%;
+  text-align: center;
+}
